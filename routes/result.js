@@ -8,7 +8,7 @@
 
 exports.index = function (req, res) {
 
-    var BASE_URL = "http://localhost:8182/graphs/neo4jnexo/";
+    var BASE_URL = "http://chardonnay.ucsd.edu:8182/graphs/neo4jnexo/";
     var QUERY_SEARCH_BY_KEYWORD = "tp/gremlin?script=g.V.filter{it.def.contains('%KEYWORD%')}";
 
     var NEXO_ID_PREFIX = "NeXO:";

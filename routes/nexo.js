@@ -13,7 +13,7 @@ var async = require('async');
 
 var _ = require("underscore");
 
-var BASE_URL = "http://localhost:8182/graphs/nexo-dag/";
+var BASE_URL = "http://chardonnay.ucsd.edu:8182/graphs/nexo-dag/";
 var ENRICH_URL = "http://localhost:5000/enrich";
 
 var ROOTS = {
